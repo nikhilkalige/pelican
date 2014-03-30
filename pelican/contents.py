@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, print_function
 import six
-from six.moves.urllib.parse import unquote
+#from six.moves.urllib.parse import unquote
 
 import copy
 import locale
@@ -96,7 +96,7 @@ class Content(object):
 
             self.in_default_lang = (self.lang == default_lang)
 
-        # create the slug if not existing, generate slug according to 
+        # create the slug if not existing, generate slug according to
         # setting of SLUG_ATTRIBUTE
         if not hasattr(self, 'slug'):
             if settings['SLUGIFY_SOURCE'] == 'title' and hasattr(self, 'title'):
