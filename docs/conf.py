@@ -41,6 +41,7 @@ html_logo = '_static/pelican.png'
 
 html_static_path = ['_static']
 pygments_style = 'sphinx'
+html_use_smartypants = True
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Pelicandoc'
