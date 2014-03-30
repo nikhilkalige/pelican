@@ -28,15 +28,19 @@ extlinks = {
 # -- Options for HTML output ---------------------------------------------------
 
 html_theme_path = ['_themes']
-html_theme = 'pelican'
+#html_theme = 'pelican'
+html_theme = "sphinx_rtd_theme"
 
 html_theme_options = {
-    'nosidebar': True,
-    'index_logo': 'pelican.png',
-    'github_fork': 'getpelican/pelican',
+    #'nosidebar': True,
+    #'index_logo': 'pelican.png',
+    #'github_fork': 'getpelican/pelican',
 }
 
+html_logo = '_static/pelican.png'
+
 html_static_path = ['_static']
+pygments_style = 'sphinx'
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Pelicandoc'
