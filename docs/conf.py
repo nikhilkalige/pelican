@@ -42,6 +42,10 @@ html_logo = '_static/pelican.png'
 html_static_path = ['_static']
 pygments_style = 'sphinx'
 html_use_smartypants = True
+html_use_modindex = False
+
+# If false, no index is generated.
+html_use_index = False
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Pelicandoc'
