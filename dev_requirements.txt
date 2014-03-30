@@ -7,6 +7,7 @@ BeautifulSoup4
 lxml
 typogrify
 blinker
+six
 
 # To perform release
 bumpr==0.2.0
